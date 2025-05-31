@@ -2,7 +2,7 @@
 
 int
 main()
-{
+{ //комментарий
   std::cout << "Введите имя пользователя: ";
   std::string name;
   std::getline(std::cin, name);
