@@ -1,6 +1,6 @@
 #include <iostream>
       #include <string>
-      
+     //комментарии  
       int main() {
           std::string name;
           std::cout << "Enter your name: ";
