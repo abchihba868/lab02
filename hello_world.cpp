@@ -1,11 +1,10 @@
 #include <iostream>
-
-int
-main()
-{
-std::cout << "Введите имя пользователя: ";
-  std::string name;
-  std::getline(std::cin, name);
-  std::cout << "Hello world from " << name << std::endl;
-  return 0;
-}
+      #include <string>
+     //комментарии  
+      int main() {
+          std::string name;
+          std::cout << "Enter your name: ";
+          std::cin >> name;
+          std::cout << "Hello, World! from " << name << std::endl;
+          return 0;
+      }
